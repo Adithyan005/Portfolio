@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import home from "../assets/home.png"
 import icon from "../assets/icon.png"
 import prog from "../assets/prog2.svg"
 import resume from "../assets/resume1.png"
-import menu from "../assets/menu.png"
+import {Menu, X} from 'lucide-react'
 
 const Navbar = () => {
+  const [isopen,setIsopen] = useState(false)
+
   return (
     <div>
       <div className="md:text-white md:flex md:justify-between md:items-center md:pt-6 md:ms-[10vw] md:me-[6vw] text-white flex justify-between items-center pt-6 ms-[10vw] me-[6vw]">
@@ -31,7 +33,7 @@ const Navbar = () => {
             <a href="" className="">Resume</a>
           </div>
           <div className="md:hidden">
-            <img src={menu} alt="" className="w-6"/>
+            <button onClick={()=>setIsopen(!isopen)}> {isopen ? <X size={30}/> : <Menu size={30}/>}</button>
           </div>
         </div>
       </div>
