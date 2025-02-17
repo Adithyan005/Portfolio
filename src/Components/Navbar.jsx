@@ -13,10 +13,10 @@ const Navbar = () => {
   };
   return (
     <div>
-      <div className="md:text-white md:flex md:justify-between md:items-center md:pt-6 md:ms-[10vw] md:me-[10vw] text-white flex justify-between items-center pt-6 ms-[10vw] me-[6vw]">
-        <div className="md:flex md:items-baseline md:gap-1 flex items-baseline gap-2">
-          <h1 className="font-bold text-4xl md:font-bold md:text-4xl">A</h1>
-          <h1 className="font-bold text-2xl md:font-bold md:text-2xl">M</h1>
+      <div className="md:text-white md:flex md:justify-between md:items-center md:pt-6 md:ms-[10vw] md:me-[7vw] text-white flex justify-between items-center pt-6 ms-[10vw] me-[6vw]">
+        <div className="md:flex md:items-baseline md:gap-1 flex items-baseline gap-2 text-purple">
+          <h1 className="font-bold text-4xl ms-3 md:font-bold md:text-4xl">A</h1>
+          <h1 className="font-bold text-2xl  md:font-bold md:text-2xl">M</h1>
         </div>
         <div className="hidden md:flex justify-center items-center gap-9 text-xl">
           <div className="md:flex md:items-center md:gap-2 md:font-style flex items-center gap-1 font-style">
@@ -47,14 +47,14 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <div className="text-xl md:hidden flex items-center">
-          <button onClick={togglemenu}>
-            {isopen ? <IoClose size={35} /> : <IoMdMenu size={35} />}
+          <button onClick={togglemenu} className="me-3">
+            {isopen ? <IoClose size={35}/> : <IoMdMenu size={35} />}
           </button>
         </div>
 
         {/* Mobile Dropdown Menu */}
         {isopen && (
-          <div className="md:hidden absolute top-[11vh] right-[13vh] w-48 text-xl text-white shadow-lg rounded-lg">
+          <div className="md:hidden absolute top-[11vh] right-[14vh] w-48 text-xl text-white shadow-lg rounded-lg">
             <ul className="flex flex-col items-center space-y-4 py-4">
               <div className="flex items-center justify-center">
               <img src={home} alt="" className="w-6" />

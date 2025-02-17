@@ -9,6 +9,9 @@ export default {
       fontFamily:{
         main:["Raleway", "serif"],
         style:["Poppins", "serif"]
+      },
+      colors:{
+        purple:"#c770f0",
       }
     },
   },
