@@ -16,7 +16,7 @@ const Home = () => {
         </div>
         <div className="mt-[9vh] ms-[13rem] text-2xl">
           <Typewriter
-            words={["Mern Stack Developer..."]}
+            words={["MERN Stack Developer..."]}
             loop={Infinity}
             cursor
             cursorStyle="|"
