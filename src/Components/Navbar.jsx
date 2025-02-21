@@ -15,8 +15,8 @@ const Navbar = () => {
     <div>
       <div className="md:text-white md:flex md:justify-between md:items-center md:pt-6 md:ms-[10vw] md:me-[7vw] text-white flex justify-between items-center pt-6 ms-[10vw] me-[6vw]">
         <div className="md:flex md:items-baseline md:gap-1 flex items-baseline gap-2 text-purple">
-          <h1 className="font-bold text-4xl ms-3 md:font-bold md:text-4xl">A</h1>
-          <h1 className="font-bold text-2xl  md:font-bold md:text-2xl">M</h1>
+          <h1 className="font-bold text-4xl ms-3 md:font-bold md:text-5xl">A</h1>
+          <h1 className="font-bold text-2xl  md:font-bold md:text-3xl">M</h1>
         </div>
         <div className="hidden md:flex justify-center items-center gap-9 text-xl">
           <div className="md:flex md:items-center md:gap-2 md:font-style flex items-center gap-1 font-style">
