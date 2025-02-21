@@ -5,7 +5,7 @@ import profile from "../assets/profile.png";
 const Home = () => {
   return (
     <div className="text-white">
-      <div className="flex justify-between items-center mt-[10vh] ms-[10rem] me-[10rem]">
+      <div className="flex justify-between items-center mt-[25vh] ms-[10rem] me-[10rem]">
         <div>
           <div className="">
             <h1 className="font-style text-4xl">Hi There! 👋</h1>
@@ -29,7 +29,7 @@ const Home = () => {
         </div>
 
         <div className="">
-          <img src={profile} alt="" className="w-[30vw]"/>
+
         </div>
       </div>
     </div>

@@ -21,13 +21,13 @@ const Navbar = () => {
         <div className="hidden md:flex justify-center items-center gap-9 text-xl">
           <div className="md:flex md:items-center md:gap-2 md:font-style flex items-center gap-1 font-style">
             <img src={home} alt="" className="md:w-5 w-7" />
-            <a href="" className="">
+            <a href="/" className="">
               Home
             </a>
           </div>
           <div className="md:flex md:items-center md:gap-2 md:font-style flex items-center gap-2 font-style">
             <img src={icon} alt="" className="md:w-6 w-7" />
-            <a href="" className="">
+            <a href="/about" className="">
               About
             </a>
           </div>
