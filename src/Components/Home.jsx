@@ -34,7 +34,7 @@ const Home = () => {
         </div>
       </div>
       
-      <div className="flex justify-between items-center mt-[20vh] mb-[25vh]">
+      <div className="flex justify-between items-center mt-[15vh] mb-[25vh]">
         <div className="">
           <div className="text-center py-10">
             <h1 className="font-style text-4xl font-medium">
@@ -62,7 +62,7 @@ const Home = () => {
       </div>
       <div>
         <div>
-          
+          <h1 className="font-style font-medium text-center text-4xl">FIND ME ON</h1>
         </div>
       </div>
     </div>

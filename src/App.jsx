@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from './Components/Navbar'
 import Home from './Components/Home'
-import Skills from './Components/Skills'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import About from './Components/About'
 const App = () => {
   return (
     <div>
@@ -10,7 +10,7 @@ const App = () => {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/' element={<Skills/>}/>
+        <Route path='/about' element={<About/>}/>
       </Routes>
       </BrowserRouter>
     </div>

@@ -60,7 +60,7 @@ const Navbar = () => {
               <img src={home} alt="" className="w-6" />
               <li className="w-full text-center">
                 <a
-                  href="#"
+                  href="/"
                   className="block px-4 py-2  rounded-md w-full"
                 >
                   Home
@@ -68,13 +68,13 @@ const Navbar = () => {
               </li>
               </div>
               <div className="flex items-center justify-center">
-              <img src={icon} alt="" className="w-7" />
+              <img src={skill} alt="" className="w-7" />
               <li className="w-full text-center">
                 <a
-                  href="#"
+                  href="/about"
                   className="block px-4 py-2 rounded-md w-full"
                 >
-                  Skills
+                 About 
                 </a>
               </li>
               </div>
