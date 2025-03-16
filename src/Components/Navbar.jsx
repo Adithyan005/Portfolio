@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import home from "../assets/home.png";
+import navhome from "../assets/navhome1.png";
 import icon from "../assets/icon.png";
 import prog from "../assets/prog2.svg";
 import resume from "../assets/resume1.png";
@@ -20,7 +20,7 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex justify-center items-center gap-9 text-xl">
           <div className="md:flex md:items-center md:gap-2 md:font-style flex items-center gap-1 font-style">
-            <img src={home} alt="" className="md:w-5 w-7" />
+            <img src={navhome} alt="" className="md:w-7 w-7" />
             <a href="/" className="">
               Home
             </a>
@@ -74,7 +74,7 @@ const Navbar = () => {
                   href="#"
                   className="block px-4 py-2 rounded-md w-full"
                 >
-                  About
+                  Skills
                 </a>
               </li>
               </div>
