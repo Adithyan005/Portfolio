@@ -2,6 +2,8 @@ import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import home from "../assets/home1.png"
 import profile from "../assets/profile.png";
+import linked from "../assets/linked2.png"
+import github from "../assets/github2.png"
 
 const Home = () => {
   return (
@@ -18,7 +20,7 @@ const Home = () => {
           </div>
           <div className="mt-[7vh]  text-3xl font-style font-medium">
             <Typewriter
-              words={["MERN Stack Developer..."]}
+              words={["Full Stack Developer..."]}
               loop={Infinity}
               cursor
               cursorStyle="|"
@@ -63,6 +65,10 @@ const Home = () => {
       <div>
         <div>
           <h1 className="font-style font-medium text-center text-4xl">FIND ME ON</h1>
+        </div>
+        <div className="flex justify-center items-center py-2 gap-4">
+          <img src={linked} alt="" className="w-12"/>
+          <img src={github} alt="" className="w-12"/>
         </div>
       </div>
     </div>
