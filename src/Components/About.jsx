@@ -2,6 +2,17 @@ import React from "react";
 import about from "../assets/about6.png";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
+import react from "../assets/react.png";
+import express from "../assets/express-js.png";
+import tail from "../assets/tail.png";
+import node from "../assets/node.png";
+import mongodb from "../assets/mongodb.png";
+import java from "../assets/java.png";
+import postman from "../assets/postman.png";
+import js from "../assets/js.png";
+import git from "../assets/git-1.png";
+import figma from "../assets/figma.png";
+import GitHubCalendar from "react-github-calendar";
 
 const About = () => {
   return (
@@ -33,20 +44,64 @@ const About = () => {
         <h1 className="font-main text-2xl font-semibold">Skills</h1>
       </div>
 
-      <div className="pt-5  grid grid-cols-3 gap-24 ms-20 me-20">
-        <div className="flex flex-col gap-4 items-center justify-center rounded-2xl shadow-xl  w-[25vw] h-[25vh]"> 
+      <div className="pt-5  grid grid-cols-3 gap-14 ms-20 me-20 font-main font-medium">
+        <div className="flex flex-col gap-4 items-center justify-center rounded-2xl shadow-xl  w-[25vw] h-[25vh] hover:border hover:border-slate-200 hover:ease-in-out duration-300 hover:scale-110">
           <img src={html} alt="" className="w-24" />
           <h1>HTML</h1>
         </div>
-        <div className="flex flex-col gap-4 items-center justify-center rounded-2xl shadow-xl  w-[25vw] h-[25vh]">
+        <div className="flex flex-col gap-4 items-center justify-center rounded-2xl shadow-xl  w-[25vw] h-[25vh] hover:border hover:border-slate-200 hover:ease-in-out duration-300 hover:scale-110">
           <img src={css} alt="" className="w-24" />
           <h1>CSS</h1>
         </div>
-        <div className="flex flex-col gap-4 items-center justify-center rounded-2xl shadow-xl hover:border-2 hover:scale-110 hover:bg-gradient-to-r from-cyan-500 to-blue-500 border-white  w-[25vw] h-[25vh]">
-          <img src={html} alt="" className="w-24" />
-          <h1>HTML</h1>
+        <div className="flex flex-col gap-4 items-center justify-center rounded-2xl shadow-xl   w-[25vw] h-[25vh] hover:border hover:border-slate-200 hover:ease-in-out duration-300 hover:scale-110">
+          <img src={react} alt="" className="w-24" />
+          <h1>React JS</h1>
+        </div>
+        <div className="flex flex-col gap-4 items-center justify-center rounded-2xl shadow-xl   w-[25vw] h-[25vh] hover:border hover:border-slate-200 hover:ease-in-out duration-300 hover:scale-110">
+          <img src={express} alt="" className="w-24" />
+          <h1>Express JS</h1>
+        </div>
+        <div className="flex flex-col gap-4 items-center justify-center rounded-2xl shadow-xl   w-[25vw] h-[25vh] hover:border hover:border-slate-200 hover:ease-in-out duration-300 hover:scale-110">
+          <img src={tail} alt="" className="w-24" />
+          <h1>Tailwind CSS</h1>
+        </div>
+        <div className="flex flex-col gap-4 items-center justify-center rounded-2xl shadow-xl   w-[25vw] h-[25vh] hover:border hover:border-slate-200 hover:ease-in-out duration-300 hover:scale-110">
+          <img src={node} alt="" className="w-24" />
+          <h1>Node JS</h1>
+        </div>
+        <div className="flex flex-col gap-4 items-center justify-center rounded-2xl shadow-xl   w-[25vw] h-[25vh] hover:border hover:border-slate-200 hover:ease-in-out duration-300 hover:scale-110">
+          <img src={mongodb} alt="" className="w-24" />
+          <h1>MongoDB</h1>
+        </div>
+        <div className="flex flex-col gap-4 items-center justify-center rounded-2xl shadow-xl   w-[25vw] h-[25vh] hover:border hover:border-slate-200 hover:ease-in-out duration-300 hover:scale-110">
+          <img src={java} alt="" className="w-24" />
+          <h1>Java</h1>
+        </div>
+        <div className="flex flex-col gap-4 items-center justify-center rounded-2xl shadow-xl   w-[25vw] h-[25vh] hover:border hover:border-slate-200 hover:ease-in-out duration-300 hover:scale-110">
+          <img src={postman} alt="" className="w-24" />
+          <h1>Postman</h1>
+        </div>
+        <div className="flex flex-col gap-4 items-center justify-center rounded-2xl shadow-xl   w-[25vw] h-[25vh] hover:border hover:border-slate-200 hover:ease-in-out duration-300 hover:scale-110">
+          <img src={js} alt="" className="w-24" />
+          <h1>Javascript</h1>
+        </div>
+        <div className="flex flex-col gap-4 items-center justify-center rounded-2xl shadow-xl   w-[25vw] h-[25vh] hover:border hover:border-slate-200 hover:ease-in-out duration-300 hover:scale-110">
+          <img src={git} alt="" className="w-24" />
+          <h1>Git</h1>
+        </div>
+        <div className="flex flex-col gap-4 items-center justify-center rounded-2xl shadow-xl   w-[25vw] h-[25vh] hover:border hover:border-slate-200 hover:ease-in-out duration-300 hover:scale-110">
+          <img src={figma} alt="" className="w-24" />
+          <h1>Figma</h1>
         </div>
       </div>
+
+      <div className="flex flex-col justify-center items-center gap-5 pt-14 font-main font-semibold text-2xl">
+        <h1>Github</h1>
+        <div className="pt-2">
+          <GitHubCalendar username="Adithyan005"/>
+        </div>
+      </div>
+      
     </div>
   );
 };

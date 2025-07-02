@@ -3,6 +3,7 @@ import navhome from "../assets/navhome1.png";
 import icon from "../assets/icon.png";
 import prog from "../assets/prog2.svg";
 import resume from "../assets/resume1.png";
+import dev from "../assets/images.png"
 import { IoClose, IoOpen } from "react-icons/io5";
 import { IoMdMenu } from "react-icons/io";
 const Navbar = () => {
@@ -39,7 +40,7 @@ const Navbar = () => {
             </a>
           </div>
           <div className="md:flex md:items-center md:gap-2 md:font-style flex items-center gap-2 font-style">
-            <img src={prog} alt="" className="md:w-7 w-7" />
+            <img src={dev} alt="" className="md:w-6 w-7" />
             <a href="" className="">
               Projects
             </a>
