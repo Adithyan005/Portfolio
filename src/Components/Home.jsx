@@ -67,8 +67,8 @@ const Home = () => {
           <h1 className="font-style font-medium text-center text-4xl">FIND ME ON</h1>
         </div>
         <div className="flex justify-center items-center py-2 gap-4">
-          <img src={linked} alt="" className="w-12"/>
-          <img src={github} alt="" className="w-12"/>
+          <a href="https://www.linkedin.com/in/adithyan-m-469569259/"><img src={linked} alt="" className="w-12"/></a>
+          <a href="https://github.com/Adithyan005"><img src={github} alt="" className="w-12"/></a>
         </div>
       </div>
     </div>

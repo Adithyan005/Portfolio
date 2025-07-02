@@ -15,8 +15,15 @@ const Navbar = () => {
     <div>
       <div className="md:text-white md:flex md:justify-between md:items-center md:pt-6 md:ms-[10vw] md:me-[7vw] text-white flex justify-between items-center pt-6 ms-[10vw] me-[6vw]">
         <div className="md:flex md:items-baseline md:gap-1 flex items-baseline gap-2 text-purple">
-          <h1 className="font-bold text-4xl ms-3 md:font-bold md:text-5xl">A</h1>
-          <h1 className="font-bold text-2xl  md:font-bold md:text-3xl">M</h1>
+          <a href="/">
+            <h1 className="font-bold text-4xl ms-3 md:font-bold md:text-5xl">
+              A
+            </h1>
+          </a>
+
+          <a href="/">
+            <h1 className="font-bold text-2xl  md:font-bold md:text-3xl">M</h1>
+          </a>
         </div>
         <div className="hidden md:flex justify-center items-center gap-9 text-xl">
           <div className="md:flex md:items-center md:gap-2 md:font-style flex items-center gap-1 font-style">
@@ -48,7 +55,7 @@ const Navbar = () => {
         {/* Mobile Menu Button */}
         <div className="text-xl md:hidden flex items-center">
           <button onClick={togglemenu} className="me-3">
-            {isopen ? <IoClose size={35}/> : <IoMdMenu size={35} />}
+            {isopen ? <IoClose size={35} /> : <IoMdMenu size={35} />}
           </button>
         </div>
 
@@ -57,48 +64,39 @@ const Navbar = () => {
           <div className="md:hidden absolute top-[11vh] right-[14vh] w-48 text-xl text-white shadow-lg rounded-lg">
             <ul className="flex flex-col items-center space-y-4 py-4">
               <div className="flex items-center justify-center">
-              <img src={home} alt="" className="w-6" />
-              <li className="w-full text-center">
-                <a
-                  href="/"
-                  className="block px-4 py-2  rounded-md w-full"
-                >
-                  Home
-                </a>
-              </li>
+                <img src={home} alt="" className="w-6" />
+                <li className="w-full text-center">
+                  <a href="/" className="block px-4 py-2  rounded-md w-full">
+                    Home
+                  </a>
+                </li>
               </div>
               <div className="flex items-center justify-center">
-              <img src={skill} alt="" className="w-7" />
-              <li className="w-full text-center">
-                <a
-                  href="/about"
-                  className="block px-4 py-2 rounded-md w-full"
-                >
-                 About 
-                </a>
-              </li>
+                <img src={skill} alt="" className="w-7" />
+                <li className="w-full text-center">
+                  <a
+                    href="/about"
+                    className="block px-4 py-2 rounded-md w-full"
+                  >
+                    About
+                  </a>
+                </li>
               </div>
               <div className="flex items-center justify-center">
-              <img src={prog} alt="" className="w-7" />
-              <li className="w-full text-center">
-                <a
-                  href="#"
-                  className="block px-4 py-2  rounded-md w-full"
-                >
-                  Projects
-                </a>
-              </li>
+                <img src={prog} alt="" className="w-7" />
+                <li className="w-full text-center">
+                  <a href="#" className="block px-4 py-2  rounded-md w-full">
+                    Projects
+                  </a>
+                </li>
               </div>
               <div className="flex items-center justify-center">
-              <img src={resume} alt="" className="w-7" />
-              <li className="w-full text-center">
-                <a
-                  href="#"
-                  className="block px-4 py-2 rounded-md w-full"
-                >
-                  Resume
-                </a>
-              </li>
+                <img src={resume} alt="" className="w-7" />
+                <li className="w-full text-center">
+                  <a href="#" className="block px-4 py-2 rounded-md w-full">
+                    Resume
+                  </a>
+                </li>
               </div>
             </ul>
           </div>
@@ -106,5 +104,5 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 export default Navbar;
