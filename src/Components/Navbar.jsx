@@ -17,16 +17,16 @@ const Navbar = () => {
       <div className="md:text-white md:flex md:justify-between md:items-center md:pt-6 md:ms-[10vw] md:me-[7vw] text-white flex justify-between items-center pt-6 ms-[10vw] me-[6vw]">
         <div className="md:flex md:items-baseline md:gap-1 flex items-baseline gap-2 text-purple">
           <a href="/">
-            <h1 className="font-bold text-4xl ms-3 md:font-bold md:text-5xl">
+            <h1 className="font-bold text-3xl ms-3 md:font-bold md:text-5xl">
               A
             </h1>
           </a>
 
           <a href="/">
-            <h1 className="font-bold text-2xl  md:font-bold md:text-3xl">M</h1>
+            <h1 className="font-bold text-2xl  md:font-bold md:text-2xl">M</h1>
           </a>
         </div>
-        <div className="hidden md:flex justify-center items-center gap-9 text-xl">
+        <div className="hidden md:flex justify-center items-center gap-9 text-md">
           <div className="md:flex md:items-center md:gap-2 md:font-style flex items-center gap-1 font-style">
             <img src={navhome} alt="" className="md:w-7 w-7" />
             <a href="/" className="">
@@ -41,13 +41,13 @@ const Navbar = () => {
           </div>
           <div className="md:flex md:items-center md:gap-2 md:font-style flex items-center gap-2 font-style">
             <img src={dev} alt="" className="md:w-6 w-7" />
-            <a href="" className="">
+            <a href="/projects" className="">
               Projects
             </a>
           </div>
           <div className="md:flex md:items-center md:gap-2 md:font-style flex items-center gap-2 font-style">
             <img src={resume} alt="" className="md:w-5 w-7" />
-            <a href="" className="">
+            <a href="/resume" className="">
               Resume
             </a>
           </div>
@@ -62,10 +62,10 @@ const Navbar = () => {
 
         {/* Mobile Dropdown Menu */}
         {isopen && (
-          <div className="md:hidden absolute top-[11vh] right-[14vh] w-48 text-xl text-white shadow-lg rounded-lg">
+          <div className="md:hidden absolute top-[11vh] right-[2vh] w-full  text-xl text-white shadow-lg rounded-lg bg-black">
             <ul className="flex flex-col items-center space-y-4 py-4">
               <div className="flex items-center justify-center">
-                <img src={home} alt="" className="w-6" />
+                <img src={navhome} alt="" className="w-6" />
                 <li className="w-full text-center">
                   <a href="/" className="block px-4 py-2  rounded-md w-full">
                     Home
@@ -73,7 +73,7 @@ const Navbar = () => {
                 </li>
               </div>
               <div className="flex items-center justify-center">
-                <img src={skill} alt="" className="w-7" />
+                <img src={icon} alt="" className="w-7" />
                 <li className="w-full text-center">
                   <a
                     href="/about"
@@ -84,9 +84,9 @@ const Navbar = () => {
                 </li>
               </div>
               <div className="flex items-center justify-center">
-                <img src={prog} alt="" className="w-7" />
+                <img src={dev} alt="" className="w-7" />
                 <li className="w-full text-center">
-                  <a href="#" className="block px-4 py-2  rounded-md w-full">
+                  <a href="/projects" className="block px-4 py-2  rounded-md w-full">
                     Projects
                   </a>
                 </li>
@@ -94,7 +94,7 @@ const Navbar = () => {
               <div className="flex items-center justify-center">
                 <img src={resume} alt="" className="w-7" />
                 <li className="w-full text-center">
-                  <a href="#" className="block px-4 py-2 rounded-md w-full">
+                  <a href="/resume" className="block px-4 py-2 rounded-md w-full">
                     Resume
                   </a>
                 </li>

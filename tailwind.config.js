@@ -12,6 +12,7 @@ export default {
       },
       colors:{
         purple:"#c770f0",
+        blue:"#27508C"
       }
     },
   },
