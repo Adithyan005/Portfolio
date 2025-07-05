@@ -2,7 +2,7 @@ import React from "react"
 import about from "../assets/about6.png";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
-import react from "../assets/react.png";
+import reactlogo from "../assets/reactlogo.png";
 import express from "../assets/express-js.png";
 import tail from "../assets/tail.png";
 import node from "../assets/node.png";
@@ -54,7 +54,7 @@ const About = () => {
           <h1>CSS</h1>
         </div>
         <div className="md:flex md:flex-col md:gap-4 md:items-center md:justify-center md:rounded-2xl md:shadow-xl  md:w-[25vw] md:h-[25vh] hover:border hover:border-slate-200 hover:ease-in-out duration-300 hover:scale-110 flex flex-col gap-3 items-center justify-center rounded-xl w-[30vw] h-[20vh]">
-          <img src={react} alt="" className="w-24 md:w-24" />
+          <img src={reactlogo} alt="" className="w-24 md:w-24" />
           <h1>React JS</h1>
         </div>
         <div className="md:flex md:flex-col md:gap-4 md:items-center md:justify-center md:rounded-2xl md:shadow-xl  md:w-[25vw] md:h-[25vh] hover:border hover:border-slate-200 hover:ease-in-out duration-300 hover:scale-110 flex flex-col gap-3 items-center justify-center rounded-xl w-[30vw] h-[20vh]">
