@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import navhome from "../assets/navhome1.png";
 import icon from "../assets/icon.png";
 import resume from "../assets/resume1.png";
@@ -6,7 +6,7 @@ import dev from "../assets/images.png"
 import { IoClose, IoOpen } from "react-icons/io5";
 import { IoMdMenu } from "react-icons/io";
 const Navbar = () => {
-  const [isopen, setIsopen] = useState(false);
+  const [isopen,setIsopen]=useState(false);
 
   const togglemenu = () => {
     setIsopen(!isopen);
