@@ -1,4 +1,4 @@
-
+import React from "react"
 import about from "../assets/about6.png";
 import html from "../assets/html.png";
 import css from "../assets/css.png";

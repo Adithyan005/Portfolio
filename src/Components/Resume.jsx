@@ -1,4 +1,4 @@
-
+import React from "react"
 import resume from "../assets/resume.jpg"
 
 const Resume = () => {
