@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Typewriter } from "react-simple-typewriter";
 import home from "../assets/home1.png"
 import profile from "../assets/profile.png";

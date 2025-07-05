@@ -1,4 +1,4 @@
-import React from "react";
+
 import coffee from "../assets/coffee.png";
 import trailerbox from "../assets/trailerbox.png";
 import baava from "../assets/baava.png";
