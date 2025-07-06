@@ -12,6 +12,7 @@ import postman from "../assets/postman.png";
 import js from "../assets/js.png";
 import git from "../assets/git-1.png";
 import figma from "../assets/figma.png";
+import GitHubCalendar from "react-github-calendar";
 
 const About = () => {
   return (
