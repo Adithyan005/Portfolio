@@ -12,7 +12,6 @@ import postman from "../assets/postman.png";
 import js from "../assets/js.png";
 import git from "../assets/git-1.png";
 import figma from "../assets/figma.png";
-import GitHubCalendar from "react-github-calendar";
 
 const About = () => {
   return (
@@ -95,12 +94,12 @@ const About = () => {
         </div>
       </div>
 
-      <div className="md:flex md:flex-col md:justify-center md:items-center md:gap-5 md:pt-14 font-main font-semibold md:text-2xl flex flex-col justify-center items-center gap-3 pt-12 text-xl ">
+      {/* <div className="md:flex md:flex-col md:justify-center md:items-center md:gap-5 md:pt-14 font-main font-semibold md:text-2xl flex flex-col justify-center items-center gap-3 pt-12 text-xl ">
         <h1>Github</h1>
         <div className="md:pt-2 py-2">
           <GitHubCalendar username="Adithyan005" className="w-40"/>
         </div>
-      </div>
+      </div> */}
       
     </div>
   );
